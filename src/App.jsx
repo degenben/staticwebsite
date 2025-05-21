@@ -8,7 +8,7 @@ function App() {
       title: "JUST BUY $1 WORTH OF THIS COIN",
       text: "What’s a dollar? A snack? A gamble? Toss it into $BENJAMINS and feel the rush. Your future self might thank you—or at least have a wild story.",
       className: "section-blue-dark",
-      image: "https://raw.githubusercontent.com/degenben/staticwebsite/main/imgs/bf_iconjpg.jpg",
+      image: "https://raw.githubusercontent.com/degenben/staticwebsite/main/imgs/BF_forever.jpg",
     },
     {
       title: "THE CURRENCY THEY CAN'T CONTROL",
@@ -50,7 +50,7 @@ function App() {
         "Strap in—we're going full send."
       ],
       className: "section-blue-mid",
-      image: "imgs/to_the_moon.jpg",
+      image: "https://raw.githubusercontent.com/degenben/staticwebsite/main/imgs/to_the_moon.jpg",
     }
   ];
 
@@ -63,10 +63,10 @@ function App() {
           className="bill-image"
         />
         <span className="wallet-id">
-          AY4G1JdpmhSxLHydSgQoXTi63cFNfaoXBgCoJ2orpump
+          X
         </span>
         <img
-          src="imgs/bf_iconjpg.jpg"
+          src="https://raw.githubusercontent.com/degenben/staticwebsite/main/imgs/bf_iconjpg.jpg"
           alt="middle header"
           className="middle-header-image"
         />
@@ -96,7 +96,7 @@ function App() {
 {index === 2 && <a href="https://x.com/SendingBens" target="_blank" rel="noopener noreferrer" className="section-button">Join The Community of Degens</a>}
 {index === 3 && <a href="https://dexscreener.com/solana/" target="_blank" rel="noopener noreferrer" className="section-button">Exchange</a>}
 {index === 4 && <a href="https://t.co/M7wF4Wv91J" target="_blank" rel="noopener noreferrer" className="section-button">Join the Table</a>}
-{index === 5 && <a href="https://solscan.io/account/8Ficjsg8fE1J9JZn4SH3YqjGk2nkefF1KcUm3aqZvsgU" target="_blank" rel="noopener noreferrer" className="section-button">Community Wallet</a>}
+{index === 5 && <a href="https://discord.com/channels/1370808016185720863/1374563028716097636" target="_blank" rel="noopener noreferrer" className="section-button">Community Discord</a>}
                 {section.image && (
                   <img src={section.image} alt="section" className="section-media-content" />
                 )}
