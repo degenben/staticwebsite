@@ -23,6 +23,7 @@ html, body {
 .app-wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   min-height: 100vh;
   background: linear-gradient(to bottom, var(--color-bg), #140022);
 }
@@ -164,6 +165,7 @@ html, body {
 
 .section-media {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
 }
