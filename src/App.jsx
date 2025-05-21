@@ -63,7 +63,7 @@ function App() {
           className="bill-image"
         />
         <span className="wallet-id">
-          X
+          94iRp8bnch51raXyuxcRf7dkciVF9kGgnA6xXBucpump
         </span>
         <img
           src="https://raw.githubusercontent.com/degenben/staticwebsite/main/imgs/bf_iconjpg.jpg"
@@ -78,7 +78,7 @@ function App() {
           <a href="https://x.com/sendingbens" target="_blank" rel="noopener noreferrer" className="icon-link">
             <FaTwitter />
           </a>
-          <a href="https://dexscreener.com/solana/" target="_blank" rel="noopener noreferrer" className="icon-link">
+          <a href="https://dexscreener.com/solana/6t7ghgkqhrmfjuae9ii9xq99vzqndok3dcubrot1nlof" target="_blank" rel="noopener noreferrer" className="icon-link">
             <FaChartLine />
           </a>
         </div>
@@ -91,10 +91,10 @@ function App() {
               <h2 className="section-title">{section.title}</h2>
               {typeof section.text === 'string' ? <p>{section.text}</p> : <ul>{section.text.map((item, i) => <li key={i}>{item}</li>)}</ul>}
               <div className={`section-media ${index % 2 === 0 ? 'row' : 'row-reverse'}`}>
-                {index === 0 && <a href="https://dexscreener.com/solana/" target="_blank" rel="noopener noreferrer" className="section-button">Buy Now</a>}
+                {index === 0 && <a href="https://dexscreener.com/solana/6t7ghgkqhrmfjuae9ii9xq99vzqndok3dcubrot1nlof" target="_blank" rel="noopener noreferrer" className="section-button">Buy Now</a>}
 {index === 1 && <a href="https://medium.com/@onedollar/the-dollar-that-cant-be-printed-8ddf359c9288" target="_blank" rel="noopener noreferrer" className="section-button">Read About Our Cousins Mission</a>}
 {index === 2 && <a href="https://x.com/SendingBens" target="_blank" rel="noopener noreferrer" className="section-button">Join The Community of Degens</a>}
-{index === 3 && <a href="https://dexscreener.com/solana/" target="_blank" rel="noopener noreferrer" className="section-button">Exchange</a>}
+{index === 3 && <a href="https://dexscreener.com/solana/6t7ghgkqhrmfjuae9ii9xq99vzqndok3dcubrot1nlof" target="_blank" rel="noopener noreferrer" className="section-button">Exchange</a>}
 {index === 4 && <a href="https://t.co/M7wF4Wv91J" target="_blank" rel="noopener noreferrer" className="section-button">Join the Table</a>}
 {index === 5 && <a href="https://discord.com/channels/1370808016185720863/1374563028716097636" target="_blank" rel="noopener noreferrer" className="section-button">Community Discord</a>}
                 {section.image && (
